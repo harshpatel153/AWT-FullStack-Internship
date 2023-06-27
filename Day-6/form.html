@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            background-color: aliceblue;
+        }
+        .Paralax{
+            background-image: url(C:\code\day6);
+            background-position:center;
+            background-size:cover;
+            min-height: 100px;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+        }    
+        .heading{
+            text-align: center;
+            color: black;
+        }
+        .gender{
+            text-align: center;
+        }
+        .personal{
+            text-align: center;
+        }
+        .gmail{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            
+            <h1 Class="heading">Student Form</h1>
+        
+            <span>First Name</span><br>
+            <input type="text"><br>
+            <span>Last Name</span><br>
+            <input type="text"><br>
+            <br>
+
+            <FIeldset>
+            <LEgend class="gender" class="Paralax">GENDER</LEgend> 
+            <input type="radio">
+                <label>MALE</label>
+                <input type="radio">
+                <label>FEMALE</label>
+            </FIeldset> <br><hr>
+
+            <fieldset>
+                <legend class="personal">Personal-Info</legend>
+                <span>Address</span><br>
+                <input type="text" rows="10"><br>
+                <span>Mobile.No</span><br>
+                <input type="number">
+            </fieldset> <br><hr>
+            
+            <fieldset>
+                <legend class="gmail">Gmail</legend>
+                <span>Username:</span><br>
+                <input type="text"><br>
+            </fieldset>
+        
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
